@@ -10,5 +10,6 @@ def test_example():
         "What's the answer to the great question?"
 
 
+@mark.skip(reason="Demo")
 def test_another_example():
     assert True, "It works!"
